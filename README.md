@@ -26,7 +26,7 @@ pip install -r requirements.txt
 cp .env.example .env
 
 # 5. Run the server
-python run.py
+python main.py
 ```
 
 Server runs at `http://localhost:5000`
@@ -37,7 +37,7 @@ Server runs at `http://localhost:5000`
 
 ```
 backend/
-├── run.py                          # Start the server here
+├── main.py                          # Start the server here
 ├── requirements.txt
 ├── .env.example
 │
@@ -295,12 +295,12 @@ def example():
 git pull https://github.com/arkeos-kzenon/online-archive.git
 
 # Create your own branch
-git checkout -b feature/your-name
+git checkout -b your-name
 
 # After finishing
 git add .
 git commit -m "your-name: done with validator"
-git push origin feature/your-name
+git push origin your-name
 ```
 
 > Only merge to `main` when your feature is tested and working.
