@@ -23,6 +23,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # 4. Create your .env file
+# Windows:
+copy .env.example .env
+# Mac/Linux:
 cp .env.example .env
 
 # 5. Run the server
